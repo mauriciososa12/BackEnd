@@ -1,19 +1,21 @@
 {
-  "name": "backend",
+  "name": "pre_entrega_2",
   "version": "1.0.0",
   "description": "",
-  "main": "1 Entregable.js",
-  "scripts": { 
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mauriciososa12/BackEnd.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mauriciososa12/BackEnd/issues"
-  },
-  "homepage": "https://github.com/mauriciososa12/BackEnd#readme"
-}
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.8.3",
+    "mongoose-paginate-v2": "^1.7.1",
+    "nodemon": "^2.0.20"
+  }
